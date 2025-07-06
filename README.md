@@ -2,6 +2,8 @@
 
     - Configure React App with Vite and pnpm
     - Configure Tailwind CSS and Daisy UI
+    - Login Form
+    - Sign In form
 
 
 
