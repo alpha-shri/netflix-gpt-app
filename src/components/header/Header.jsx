@@ -1,4 +1,5 @@
-import { NETFLIX_LOGO } from "@/utils/constants";
+import NETFLIX_LOGO from "@/assets/NETFLIX_LOGO.png";
+
 const Header = () => {
   return (
     <div className="absolute px-8 py-2 ml-6 bg-gradient-to-b from-black z-10">
