@@ -15,10 +15,10 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_APP_ID,
 };
 
-console.table(firebaseConfig);
-
 // Initialize Firebase
 // eslint-disable-next-line no-unused-vars
 const app = initializeApp(firebaseConfig);
 
-export const auth = getAuth();
+export const auth = getAuth(app);
+
+export default app;
